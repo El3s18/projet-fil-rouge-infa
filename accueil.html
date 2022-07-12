@@ -1,0 +1,279 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sYlogi_accueil</title>
+    <link rel="icon" href="img/logo definitif.PNG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/accueil.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Creation du header-->
+    <!--
+        <header>
+        Creation du contenu du header-->   
+        <!--
+        <div><img src="img/menuburger.png" alt="menu_burger" class="menu_burger"></div> <!-- Menu burger donc on ajoutera des commandes en JS
+        <div><a href="accueil.html"><img src="img/logo definitif.PNG" alt="Revenir à l'accueil " class="sYlogi_header"></a></div>
+        Logo du header avec un lein  pour revenir sur l'accueil lorsque l'on appuie dessus-->
+        <!-- Creation d'un bouton label connecté au input"recherche"
+        <div class="block_search"><label for="search" id="search"><img src="img/recherche.png4.png" alt="Recherche"  class="loupe"></label>
+        <input type="search" placeholder="recherche" name="the_search" id="search">
+        </div>
+        <div class="deconnexion"><a href="#" class="link_connexion">Deconnexion</a></div>  
+        </header> -->
+
+        <header role="header">
+
+            <nav class="menu" role="navigation">
+                <div class="inner">
+                    <div class="m-right">
+                    <a href="#" class="m-link">
+                    
+                        <i class="bi bi-house"></i>
+                    </a>
+                    <a href="#" class="m-link">
+                        <i class="bi bi-person-circle"></i></a>
+                        <a href="#" class="m-link"><i class="bi bi-search"></i>
+                        </a>
+                        <a href="#" class="m-link"><i class="bi bi-chat"></i></a>
+                        <a href="#" class="m-link"><i class="bi bi-bell"></i></a>q
+
+                        <div class="m-nav-toggle">
+                            <span class="m-toggle-icons"></span>
+                            <div class="m-left"><a class="logo" href="img/logo-removebg-preview.png" alt="logo" ></a></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>        
+
+<!-- Creation de la section conteneur"tendance du moment"-->
+    <section id="trends">
+        <div class="title_trend">
+            <!--Ajout du titre -->
+            <h2>Tendances du moment:</h2>
+        </div>
+        <div class="container_slide">
+            <!--Creation d'un conteneur en row pour les bouttons et les cartes-->
+            <div id="button_directionG">
+                <div class="rond">
+                    <div class="triangle"></div>
+                </div>
+            </div>
+        <!--bouton gauche-->
+
+            <!-- deux carts dans un conteneur cartes-->
+
+            <div id="card_trend">
+                <div class="img_card"><img src="img/s-l300_(1).jpg" alt="maillot.png"></div>
+                <div class="container_info">
+                    <div class="user">          
+                        <div class="img_user"><img src="img/photo-profil.png" alt="Antoine Dupont"></div>
+                        <h2 class="name_id"><a href="#"> Antoine Dupont</a></h2> 
+                    </div>
+                    <p class="card_description">Maillot de la coupe du monde de football.</p>
+                    <div class="voir-plus">
+                        <a href="#"class="more">Voir Plus</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="card_trend">
+                <div class="img_card2"><img src="img/618372167timbres-collection-1-cent-benjamin-franklin-1936.jpg" alt="timbre de 1dollar représentant benjamin franklin"></div>
+                <div class="container_info2">
+                    <div class="user2">
+                        <div class="img_user"><img src="img/1405451534-capture-d-ecran-2014-07-15-a-21-11-38.png" alt="Edith malou"></div>
+                        <h2 class="name_id"><a href="#">Edith Malou</a></h2>
+                    </div>
+                <p class="card_description">Timbre USA</p>
+                <div class="voir-plus">
+                    <a href="#"class="more">Voir Plus</a>
+                </div>
+                </div>
+            </div>
+                <!--bouton droit-->
+            <div id="button_directionD">
+                <div class="rond">
+                    <div class="triangle"></div>
+                </div>
+            </div>      
+        </div>
+    </section>
+
+    <!-- Creation section pour la navigation des cartes en foinction des catégories-->
+    <section id="nav_cat">
+            <h2 class="category_title">Parce que vous aimez <span id="categorie"> Timbres </span>.</h2>
+            <!--Premiere catégorie en article catégory-->
+            <article id="category-1">
+            <div id="line-1">
+                <div class="card_category">
+                <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                <div class="img_cat1_l1"><img src="/img/618372167timbres-collection-1-cent-benjamin-franklin-1936.jpg"
+                alt="timbre americain"/></div>
+                    <div id="icon_card">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+                
+                <div class="card_category2">
+                    <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                    <div class="img2_cat1_l1"><img src="/img/618372167timbres-collection-1-cent-benjamin-franklin-1936.jpg"
+                    alt="timbre americain"/></div>
+                        <div id="icon_card2">
+                            <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                            <div id="like"><img src="/img/heart.png" alt="like"></div>
+                            <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                            <div class="more_little_size"><a href="#">Voir plus</a></div>
+                        </div>
+                    </div>
+                <div class="card_category3">
+                    <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                    <div class="img3_cat1_l1"><img src="/img/618372167timbres-collection-1-cent-benjamin-franklin-1936.jpg"
+                        alt="timbre americain"/></div>
+                    <div id="icon_card3">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+            </div>
+            <div id="line-2">
+                <div class="card_category4">
+                <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                <div class="img_cat1_l2"><img src="/img/618372167timbres-collection-1-cent-benjamin-franklin-1936.jpg"
+                    alt="timbre americain"/></div>
+                    <div id="icon_card">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+                
+                <div class="card_category5">
+                    <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                    <div class="img2_cat1_l2"><img src="/img/618372167timbres-collection-1-cent-benjamin-franklin-1936.jpg"
+                        alt="timbre americain"/></div>
+                    <div id="icon_card2">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+                <div class="card_category6">
+                    <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                    <div class="img3_cat1_l2"><img src="/img/618372167timbres-collection-1-cent-benjamin-franklin-1936.jpg"
+                        alt="timbre americain"/></div>
+                    <div id="icon_card3">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Deuxieme catégorie-->
+        <article id="category-2">
+            <h2 class="category_title1">Parce que vous aimez <span id="categorie"> Football </span>.</h2>
+            <!--Premiere catégorie en article catégory-->
+            <div id="line-1">
+                <div class="card_category">
+                <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                <div class="img_cat2_l1"><img src="/img/H0d5bb4b57a1c4f5380eac4fabf9c39c9j.jpg" alt="maillot bleu collector"></div>
+                    <div id="icon_card">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+                <div class="card_category2">
+                    <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                    <div class="img2_cat2_l1"><img src="/img/H0d5bb4b57a1c4f5380eac4fabf9c39c9j.jpg" alt="maillot bleu collector"></div>
+                    <div id="icon_card2">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+                <div class="card_category3">
+                    <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                    <div class="img3_cat2_l1"><img src="/img/H0d5bb4b57a1c4f5380eac4fabf9c39c9j.jpg" alt="maillot bleu collector"></div>
+                    <div id="icon_card3">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+            </div>
+            <div id="line-2">
+                <div class="card_category4">
+                <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                <div class="img1_cat2_l2"><img src="/img/H0d5bb4b57a1c4f5380eac4fabf9c39c9j.jpg" alt="maillot bleu collector"></div>
+                    <div id="icon_card">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+                <div class="card_category5">
+                    <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                    <div class="img2_cat2_l2"><img src="/img/H0d5bb4b57a1c4f5380eac4fabf9c39c9j.jpg" alt="maillot bleu collector"></div>
+                    <div id="icon_card2">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+                <div class="card_category6">
+                    <!--Premiere catégorie avec la carte composant le l'img aligné verticalement avec le icon_card-->
+                    <div class="img3_cat2_l2"><img src="/img/H0d5bb4b57a1c4f5380eac4fabf9c39c9j.jpg" alt="maillot bleu collector"></div>
+                    <div id="icon_card3">
+                        <!--Icon card dans le quel seront disponsé en row dans ce container, le like, share et en "voir plus" -->
+                        <div id="like"><img src="/img/heart.png" alt="like"></div>
+                        <div id="share"><img src="/img/share (3).png" alt="partager"></div>
+                        <div class="more_little_size"><a href="#">Voir plus</a></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+        <!--Creation du footer-->
+    <footer>
+        <div class="icone_footer">
+            <div class="text_logo_footer"><p>sYlogi</p></div>
+            <div class="logo_footer"><img src="/img/logo-removebg-preview.png" alt="logo_footer"></div>
+        </div>
+        <div class="a_propos_footer">
+            <ul>
+                <li><a href="#">Qui sommes nous</a></li>
+                <li><a href="#">Contact sYlogi</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">CGV</a></li>
+                <li><a href="#">Mentions légales</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+

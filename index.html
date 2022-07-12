@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Création de compte</title>
+</head>
+<header>
+    
+    <div class="header">
+        <img class="logo" src="img/logo.PNG" alt="logo">
+    </div>
+</header>
+<body>
+    <h1>Création de compte</h1>
+    <p>*Champ requis</p>
+    <form action="index.html" method="post">
+        <div>
+            <label for="name">*Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="identifiant">*identifiant:</label>
+            <input type="text" id="identifiant" name="user_identifiant">
+        </div>
+        <div>
+            <label for="mdp">*Mot de passe :</label>
+            <input type="password" id="mdp" name="user_mdp">
+        </div>
+        <div>
+            <label for="confirmation">*Confirmer mot de passe:</label>
+            <input type="password" id="confirmation" name="user_confirmation_mdp">
+        </div>
+        <div>
+            <label for="mail">*Adresse e-mail :</label>
+            <input type="mail" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="mail">*Confirmer l'adresse e-mail :</label>
+            <input type="mail" id="mail" name="user_confirmation_mail">
+        </div>
+        
+    </form>
+    <div class="btn">
+    <input class="btn-inscription" type="submit" value="s'inscrire" >
+    <input class="btn-annuler" type="submit" value="annuler" >
+    </div>
+    <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
+    <script src='https://www.google.com/recaptcha/api.js?hl=fr'></script>
+</body>
+</html>
