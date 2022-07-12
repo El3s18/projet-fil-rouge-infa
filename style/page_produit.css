@@ -1,0 +1,214 @@
+body{
+    background-color: #e5e5e5;
+    width: auto;
+    height: auto;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Arvo', serif;
+
+}
+
+article{
+    position: absolute;
+    background-color: #FFFDC0;
+    margin: 0;
+    width : 70%;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 20px 4px 9px rgba(0, 0, 0, 0.25);
+}
+
+#ligne1{
+    
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.photo_produit{
+    width: 60%;
+    height: 100%;
+}
+.photo_produit img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+aside {
+    width: 30%;
+    height: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 50px;
+}
+
+aside .info{
+    display: flex;
+    flex-direction: column;
+}
+.profil{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    height: 10%;
+    width: 100%;
+}
+.nom_de_profil a{
+    text-decoration: none;
+    color: #C90812;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.photoprofil img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+.description{
+    height: 30%;
+    width: 100%;
+}
+
+.description .titre h1{
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 37px;
+    letter-spacing: 1%;
+}
+
+.description .txt p{
+    font-size: 15px;
+}
+
+
+.icone{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 10%;
+}
+
+.icone img {
+    width: 29px;
+    height: 29px;
+} 
+
+#commentaire{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 10px;
+
+    
+}
+
+.commentaire1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(208,8,18,0.1);
+
+}
+.profil_com{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.commentaire1 .photo img{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+
+}
+
+.commentaire1 a{
+    text-decoration: none;
+    color: #C90812;
+    padding-left: 12px;
+}
+.commentaire1 p {
+    font-size: 10px;
+    word-wrap:inherit;
+}
+
+.commentaire2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(208,8,18,0.1);
+    margin-top: 10px;
+
+}
+
+.commentaire2 .photo img{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+}
+
+.commentaire2 a{
+    text-decoration: none;
+    color: #C90812;
+    padding-left: 12px;
+}
+.commentaire2 p{
+    font-size: 10px;
+    word-wrap: wrap;
+}
+.icone_com{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icone_com img {
+    width: 20px;
+    height: 20px;
+} 
+
+#ligne2  {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+
+.suggestion{
+    background-color:rgba(208,8,18,0.1);
+    width: 70%;
+    height: 30%;
+    padding-bottom: 25px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.suggestion .description{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(208,8,18)
+}
+.suggestion .description span {
+    letter-spacing: 0.2em;
+}
+.produits{
+    
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+
+}
+
+.produit img{
+    height: 150px;
+    width: 150px;
+}

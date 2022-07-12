@@ -1,0 +1,41 @@
+
+body{
+    margin: 0;
+    background-color: #FFFDC0;
+}
+.header{
+    background-color: #000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin:20px;
+    width: 80px;
+}
+form{
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+form input {
+    padding:10px 100px 10px 100px;
+    margin:10px 0;
+}
+.btn{
+    display: flex;
+    justify-content: right;
+    padding:10px 200px 10px 100px;
+    
+}
+.btn-inscription{
+    padding:10px 50px 10px 50px;
+    margin-right: 40px; 
+}
+.btn-annuler{
+    padding:10px 50px 10px 50px;
+    
+}
+
+
